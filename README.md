@@ -12,7 +12,7 @@ Sistema de Generación Aumentada por Recuperación (RAG) para el asistente de at
 | Modelo generador | `qwen3:14b` (Ollama), el mismo del Taller 1 | [Fase 3](fase3_rag.md) |
 | Orquestación | LangChain | [Fase 3](fase3_rag.md) |
 
-Los modelos de embeddings se compararon sobre un conjunto de 18 preguntas de clientes y se validaron con 8 preguntas adicionales. La segmentación final alcanza recall@3 de 1.00 sobre el conjunto de evaluación y 0.88 sobre el de validación, frente a 0.83 y 0.75 de la mejor segmentación clásica evaluada, con 28 % a 38 % menos texto enviado al modelo. El detalle y las limitaciones están en los documentos de cada fase.
+Los modelos de embeddings se compararon sobre un conjunto de 18 preguntas de clientes y se validaron con 8 preguntas adicionales. La segmentación final alcanza recall@3 de 1.00 sobre el conjunto de evaluación y 0.88 sobre el de validación, frente a 0.83 y 0.75 del script de ejemplo del curso con sus parámetros por defecto, con la mitad de texto enviado al modelo. La Fase 3 incluye además experimentos sobre el prompt y los parámetros, y cuatro experimentos con el LLM local (juez de fidelidad, RAG correctivo, enlaces propuestos por el LLM y resúmenes por grupo). El detalle y las limitaciones están en los documentos de cada fase.
 
 ## Estado
 
@@ -20,7 +20,7 @@ Los modelos de embeddings se compararon sobre un conjunto de 18 preguntas de cli
 |---|---|---|
 | 1 | Selección de componentes (embeddings y base vectorial) | Entregada |
 | 2 | Base de conocimiento: documentos, segmentación e indexación | Entregada |
-| 3 | Integración con LangChain y ejecución del código | En desarrollo: sistema y experimentos listos, [documento](fase3_rag.md); faltan la evaluación de respuestas y la comparación con el Taller 1 |
+| 3 | Integración con LangChain, experimentos y comparación con el script del curso | Entregada ([documento](fase3_rag.md)) |
 
 ## Estructura del repositorio
 
@@ -46,7 +46,7 @@ taller2-rag/
 ├── rag_ejemplo.py                 Script de ejemplo del curso, sin modificar (LangChain 0.x; no corre en este entorno)
 ├── rag_ejemplo_adaptado.py        El mismo script migrado a LangChain 1.x (línea base)
 ├── evaluar_rag.py                 Recall@3 de la recuperación sobre el índice real
-├── llm_local.py                   Cliente mínimo de Ollama para los experimentos con LLM
+├── llm_local.py                   Cliente de Ollama (y opcionalmente de la API de Anthropic) para los experimentos
 ├── exp_juez.py                    Experimento: qwen3:14b como juez de fidelidad
 ├── exp_correctivo.py              Experimento: RAG correctivo (el LLM revisa lo recuperado)
 ├── exp_enlaces_llm.py             Experimento: el LLM propone los enlaces FAQ -> política

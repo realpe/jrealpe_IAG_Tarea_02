@@ -13,10 +13,10 @@ El sistema recupera fragmentos de la base de conocimiento (Fase 2), los entrega 
 | Recuperación, enlace, prompt y generación | `rag_ecomarket.py` | Terminado |
 | Evaluación de la recuperación sobre el índice real | `evaluar_rag.py` | Terminado |
 | Experimentos con el LLM local (juez, RAG correctivo, enlaces por LLM, resúmenes por grupo) | `exp_*.py`, `llm_local.py` | Terminado |
-| Evaluación de respuestas completas (citas, abstención) | — | Pendiente |
-| Integración con el clasificador del Taller 1 | — | Pendiente |
+| Evaluación de respuestas completas sobre las 26 preguntas | — | No realizada; el juez de fidelidad (6.2) y el verificador de citas cubren parcialmente ese objetivo |
+| Integración con el clasificador de intención del Taller 1 | — | No realizada; queda como extensión (ver `val-02` en limitaciones) |
 | Script del curso migrado a LangChain 1.x, como línea base | `rag_ejemplo_adaptado.py` | Terminado |
-| Comparación con la implementación artesanal del Taller 1 | — | Pendiente |
+| Comparación con el script de ejemplo del curso (línea base) | `rag_ejemplo_adaptado.py --evaluar` | Terminada (sección 2 bis) |
 
 El script de ejemplo del curso (`rag_ejemplo.py`) se recibió el 13 de octubre, cuando el sistema ya estaba construido. Está escrito para la serie 0.x de LangChain y no corre con la 1.4.3 fijada en `requirements.txt`: sus seis importaciones fallan (`langchain_community`, `langchain.text_splitter` y `langchain.chains` no existen en 1.x), usa `llama2` como modelo de embeddings y de generación, y `qa_chain.run()` fue retirado. La sección 2 bis muestra la correspondencia entre sus siete pasos y este sistema, y `rag_ejemplo_adaptado.py` es el script original migrado paso a paso, que se conserva como línea base.
 

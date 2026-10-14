@@ -1,0 +1,1300 @@
+{
+  "modelo": "qwen3-embedding:4b",
+  "tokens_api": 0,
+  "resultados": {
+    "ORO (18 preguntas; con el que se diseñaron las estrategias)": {
+      "base": {
+        "recall": {
+          "@1": 0.722,
+          "@3": 1.0,
+          "@5": 1.0
+        },
+        "recall_criticas@3": 1.0,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [],
+        "fragmentos_indice": 56,
+        "detalle": [
+          {
+            "id": "oro-01",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-02",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-03",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-04",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-05",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-06",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-07",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-08",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-09",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-10",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-11",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-12",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-13",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-14",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-15",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-16",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-17",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-18",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F fusión": {
+        "recall": {
+          "@1": 0.833,
+          "@3": 0.944,
+          "@5": 1.0
+        },
+        "recall_criticas@3": 0.833,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [
+          "oro-04"
+        ],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "oro-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-02",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-03",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-04",
+            "critico": true,
+            "k_minimo": 4,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-05",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-06",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-07",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-08",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-09",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-10",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-11",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-12",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-13",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-14",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-15",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-16",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-17",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-18",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "E enlace": {
+        "recall": {
+          "@1": 0.722,
+          "@3": 1.0,
+          "@5": 1.0
+        },
+        "recall_criticas@3": 1.0,
+        "ctx_medio@3": 3.11,
+        "fallan@3": [],
+        "fragmentos_indice": 56,
+        "detalle": [
+          {
+            "id": "oro-01",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-02",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-03",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 4
+          },
+          {
+            "id": "oro-04",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-05",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-06",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-07",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-08",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 4
+          },
+          {
+            "id": "oro-09",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-10",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-11",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-12",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-13",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-14",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-15",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-16",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-17",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-18",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "P preguntas": {
+        "recall": {
+          "@1": 0.722,
+          "@3": 1.0,
+          "@5": 1.0
+        },
+        "recall_criticas@3": 1.0,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [],
+        "fragmentos_indice": 56,
+        "detalle": [
+          {
+            "id": "oro-01",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-02",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-03",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-04",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-05",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-06",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-07",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-08",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-09",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-10",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-11",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-12",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-13",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-14",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-15",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-16",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-17",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-18",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F+E": {
+        "recall": {
+          "@1": 0.833,
+          "@3": 1.0,
+          "@5": 1.0
+        },
+        "recall_criticas@3": 1.0,
+        "ctx_medio@3": 3.06,
+        "fallan@3": [],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "oro-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-02",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-03",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-04",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 4
+          },
+          {
+            "id": "oro-05",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-06",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-07",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-08",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-09",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-10",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-11",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-12",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-13",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-14",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-15",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-16",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-17",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-18",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F+P": {
+        "recall": {
+          "@1": 0.833,
+          "@3": 1.0,
+          "@5": 1.0
+        },
+        "recall_criticas@3": 1.0,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "oro-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-02",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-03",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-04",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-05",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-06",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-07",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-08",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-09",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-10",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-11",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-12",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-13",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-14",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-15",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-16",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-17",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-18",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F+E+P": {
+        "recall": {
+          "@1": 0.833,
+          "@3": 1.0,
+          "@5": 1.0
+        },
+        "recall_criticas@3": 1.0,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "oro-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-02",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-03",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-04",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-05",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-06",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-07",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-08",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-09",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-10",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-11",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-12",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-13",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-14",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-15",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-16",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-17",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "oro-18",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      }
+    },
+    "VALIDACIÓN (8 preguntas; escrito antes de diseñarlas)": {
+      "base": {
+        "recall": {
+          "@1": 0.375,
+          "@3": 0.875,
+          "@5": 0.875
+        },
+        "recall_criticas@3": 0.8,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [
+          "val-02"
+        ],
+        "fragmentos_indice": 56,
+        "detalle": [
+          {
+            "id": "val-01",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-02",
+            "critico": true,
+            "k_minimo": 10,
+            "ctx3": 3
+          },
+          {
+            "id": "val-03",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-04",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-05",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-06",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-07",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-08",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F fusión": {
+        "recall": {
+          "@1": 0.625,
+          "@3": 0.875,
+          "@5": 0.875
+        },
+        "recall_criticas@3": 0.8,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [
+          "val-02"
+        ],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "val-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-02",
+            "critico": true,
+            "k_minimo": 9,
+            "ctx3": 3
+          },
+          {
+            "id": "val-03",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "val-04",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-05",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-06",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-07",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-08",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "E enlace": {
+        "recall": {
+          "@1": 0.375,
+          "@3": 0.875,
+          "@5": 0.875
+        },
+        "recall_criticas@3": 0.8,
+        "ctx_medio@3": 3.25,
+        "fallan@3": [
+          "val-02"
+        ],
+        "fragmentos_indice": 56,
+        "detalle": [
+          {
+            "id": "val-01",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-02",
+            "critico": true,
+            "k_minimo": 10,
+            "ctx3": 3
+          },
+          {
+            "id": "val-03",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-04",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-05",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 5
+          },
+          {
+            "id": "val-06",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-07",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-08",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          }
+        ]
+      },
+      "P preguntas": {
+        "recall": {
+          "@1": 0.5,
+          "@3": 0.875,
+          "@5": 0.875
+        },
+        "recall_criticas@3": 0.8,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [
+          "val-02"
+        ],
+        "fragmentos_indice": 56,
+        "detalle": [
+          {
+            "id": "val-01",
+            "critico": true,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-02",
+            "critico": true,
+            "k_minimo": 8,
+            "ctx3": 3
+          },
+          {
+            "id": "val-03",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "val-04",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-05",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-06",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-07",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-08",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F+E": {
+        "recall": {
+          "@1": 0.625,
+          "@3": 0.875,
+          "@5": 0.875
+        },
+        "recall_criticas@3": 0.8,
+        "ctx_medio@3": 3.12,
+        "fallan@3": [
+          "val-02"
+        ],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "val-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-02",
+            "critico": true,
+            "k_minimo": 9,
+            "ctx3": 3
+          },
+          {
+            "id": "val-03",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "val-04",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-05",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 4
+          },
+          {
+            "id": "val-06",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-07",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-08",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F+P": {
+        "recall": {
+          "@1": 0.625,
+          "@3": 0.875,
+          "@5": 0.875
+        },
+        "recall_criticas@3": 0.8,
+        "ctx_medio@3": 3.0,
+        "fallan@3": [
+          "val-02"
+        ],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "val-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-02",
+            "critico": true,
+            "k_minimo": 8,
+            "ctx3": 3
+          },
+          {
+            "id": "val-03",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "val-04",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-05",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 3
+          },
+          {
+            "id": "val-06",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-07",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-08",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      },
+      "F+E+P": {
+        "recall": {
+          "@1": 0.625,
+          "@3": 0.875,
+          "@5": 0.875
+        },
+        "recall_criticas@3": 0.8,
+        "ctx_medio@3": 3.12,
+        "fallan@3": [
+          "val-02"
+        ],
+        "fragmentos_indice": 54,
+        "detalle": [
+          {
+            "id": "val-01",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-02",
+            "critico": true,
+            "k_minimo": 8,
+            "ctx3": 3
+          },
+          {
+            "id": "val-03",
+            "critico": true,
+            "k_minimo": 3,
+            "ctx3": 3
+          },
+          {
+            "id": "val-04",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-05",
+            "critico": false,
+            "k_minimo": 2,
+            "ctx3": 4
+          },
+          {
+            "id": "val-06",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-07",
+            "critico": false,
+            "k_minimo": 1,
+            "ctx3": 3
+          },
+          {
+            "id": "val-08",
+            "critico": true,
+            "k_minimo": 1,
+            "ctx3": 3
+          }
+        ]
+      }
+    }
+  }
+}

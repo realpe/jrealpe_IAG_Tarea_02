@@ -1,0 +1,4604 @@
+[
+  {
+    "modelo": "nomic-embed-text:latest",
+    "dim": 768,
+    "fragmentos": 56,
+    "prefijo_consulta": "search_query: ",
+    "prefijo_documento": "search_document: ",
+    "recall": {
+      "@1": 0.5,
+      "@3": 0.667,
+      "@5": 0.778
+    },
+    "recall_criticas": {
+      "@1": 0.333,
+      "@3": 0.333,
+      "@5": 0.333
+    },
+    "ms_por_consulta": 8.1,
+    "s_indexado": 0.4,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": null,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.752,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.726,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.707,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.804,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.784,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.737,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 5,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.77,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.721,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.717,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": null,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.767,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.721,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.709,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 5,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.714,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.707,
+            "inicio": "Pregunta frecuente (envios): ¿Cómo rastreo mi pedido? Respuesta: Cuand"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.706,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.746,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.691,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.684,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": null,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.661,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.659,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.659,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.777,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.695,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.683,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": null,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.695,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.691,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.665,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.77,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.767,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.696,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-BOT-500; nombre: Botella té"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.807,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.78,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.742,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.733,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.728,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.667,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.691,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.665,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.661,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos La garantía de 2"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.636,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.63,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.629,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos El café molido "
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.763,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.679,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.668,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.801,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.68,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.664,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.737,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.711,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.677,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente Las esponjas de "
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.718,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.687,
+            "inicio": "Pregunta frecuente (cuenta): Olvidé mi contraseña, ¿cómo la recupero? "
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.658,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          }
+        ]
+      }
+    ],
+    "mb": 274
+  },
+  {
+    "modelo": "bge-m3:latest",
+    "dim": 1024,
+    "fragmentos": 56,
+    "prefijo_consulta": "",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.722,
+      "@3": 0.889,
+      "@5": 0.889
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 0.667,
+      "@5": 0.667
+    },
+    "ms_por_consulta": 15.6,
+    "s_indexado": 0.8,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 7,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.656,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Se pueden devolver los alimentos? "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.654,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.629,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.742,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.729,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.691,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.632,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.607,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.596,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 9,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.595,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.561,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.555,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.723,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.636,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.574,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.796,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.615,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.499,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.513,
+            "inicio": "Guía de cuidado > Cuando el cuidado no es el problema Si un producto f"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.509,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.508,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.4 Casos que NO p"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.782,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.644,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.629,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.644,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.564,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.558,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.686,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.579,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.548,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-BOT-500; nombre: Botella té"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.625,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.61,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.528,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-PAN-REU; nombre: Paños reut"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.733,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.671,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.663,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.663,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.628,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.535,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.536,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.438,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.426,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.706,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.652,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.531,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.681,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.613,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.521,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.691,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.597,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.593,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.71,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.503,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.491,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.4 Casos que NO p"
+          }
+        ]
+      }
+    ],
+    "mb": 1158
+  },
+  {
+    "modelo": "voyage:voyage-4",
+    "dim": 1024,
+    "fragmentos": 56,
+    "prefijo_consulta": "",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.667,
+      "@3": 0.889,
+      "@5": 1.0
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 0.667,
+      "@5": 1.0
+    },
+    "ms_por_consulta": 49.2,
+    "s_indexado": 1.7,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 4,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.635,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.632,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.629,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.7,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.678,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.605,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.657,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.588,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.52,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 4,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.601,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.556,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.549,
+            "inicio": "Guía de cuidado > Cuando el cuidado no es el problema Si un producto f"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.679,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.512,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.501,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.623,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.585,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.472,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.42,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.412,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.4 Casos que NO p"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.394,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.648,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.526,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.521,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.474,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.373,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.372,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.678,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.677,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.562,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.643,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.614,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.566,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-PAN-REU; nombre: Paños reut"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.653,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.64,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.602,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.609,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.462,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.452,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.446,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.351,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.266,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.604,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.594,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.449,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.636,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.596,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.396,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.552,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.473,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.464,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.707,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.436,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.369,
+            "inicio": "Pregunta frecuente (cuenta): Olvidé mi contraseña, ¿cómo la recupero? "
+          }
+        ]
+      }
+    ],
+    "mb": null,
+    "tokens_api": 6561,
+    "usd_estimado_sin_tramo_gratis": 0.000394
+  },
+  {
+    "modelo": "voyage:voyage-4-lite",
+    "dim": 1024,
+    "fragmentos": 56,
+    "prefijo_consulta": "",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.722,
+      "@3": 0.833,
+      "@5": 0.944
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 0.5,
+      "@5": 0.833
+    },
+    "ms_por_consulta": 48.7,
+    "s_indexado": 1.1,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 4,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.602,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.584,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.573,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.693,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.685,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.64,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.64,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.595,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.494,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 8,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.54,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.464,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.464,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.67,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.51,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.504,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.514,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.481,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.349,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 4,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.436,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.405,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.399,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.656,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.54,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.539,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.488,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.386,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.38,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.624,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.615,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.486,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.613,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.606,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.548,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-PAN-REU; nombre: Paños reut"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.603,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.581,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.573,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.472,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.408,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.375,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.426,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.332,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.332,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.51,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.506,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.4,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.583,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.559,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.374,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.534,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.508,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.471,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.712,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.46,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.371,
+            "inicio": "Pregunta frecuente (cuenta): Olvidé mi contraseña, ¿cómo la recupero? "
+          }
+        ]
+      }
+    ],
+    "mb": null,
+    "tokens_api": 6561,
+    "usd_estimado_sin_tramo_gratis": 0.000131
+  },
+  {
+    "modelo": "qwen3-embedding:0.6b",
+    "dim": 1024,
+    "fragmentos": 56,
+    "prefijo_consulta": "Instruct: Dada una pregunta de un cliente de EcoMarket, recuperar los pasajes de políticas, FAQ, catálogo o guía de cuidado que la responden\nQuery: ",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.611,
+      "@3": 0.833,
+      "@5": 0.944
+    },
+    "recall_criticas": {
+      "@1": 0.333,
+      "@3": 0.5,
+      "@5": 0.833
+    },
+    "ms_por_consulta": 22.6,
+    "s_indexado": 2.4,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.7,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.679,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.679,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.823,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.795,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.716,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.616,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.611,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.584,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 7,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.664,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.598,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.532,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-JAB-3; nombre: Jabón sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.748,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.715,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.629,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.78,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.694,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.58,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 5,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.576,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.563,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.536,
+            "inicio": "Pregunta frecuente (empresa): ¿Qué significa que un producto sea soste"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.752,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.709,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.66,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 4,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.647,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.638,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.632,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.832,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.708,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.652,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-BOT-500; nombre: Botella té"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.619,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.607,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.602,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-PAN-REU; nombre: Paños reut"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.742,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.631,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.62,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.706,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.596,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.559,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.579,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.464,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.441,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente Las esponjas de "
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.681,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.668,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.663,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.738,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.686,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.604,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.704,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.656,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.532,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.859,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.548,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.534,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      }
+    ],
+    "mb": 639
+  },
+  {
+    "modelo": "qwen3-embedding:4b",
+    "dim": 2560,
+    "fragmentos": 56,
+    "prefijo_consulta": "Instruct: Dada una pregunta de un cliente de EcoMarket, recuperar los pasajes de políticas, FAQ, catálogo o guía de cuidado que la responden\nQuery: ",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.722,
+      "@3": 1.0,
+      "@5": 1.0
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 1.0,
+      "@5": 1.0
+    },
+    "ms_por_consulta": 67.1,
+    "s_indexado": 6.4,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.802,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.745,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.725,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.857,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.755,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.74,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.729,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.7,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.687,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.721,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.653,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.645,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-JAB-3; nombre: Jabón sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.815,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.689,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.649,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.778,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.657,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.621,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.667,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.652,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.4 Casos que NO p"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.607,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.736,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.705,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.69,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.737,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.633,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.633,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.805,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.79,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.756,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-BOT-500; nombre: Botella té"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.688,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-PAN-REU; nombre: Paños reut"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.683,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.683,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.797,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.742,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.688,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.765,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.724,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.684,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-BOT-500; nombre: Botella té"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.683,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.645,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.526,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente Las esponjas de "
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.857,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.781,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.696,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.832,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.8,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.562,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.761,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.732,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.615,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.887,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.559,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.531,
+            "inicio": "Políticas EcoMarket > 3. Reglas de comunicación - Tono cercano, claro "
+          }
+        ]
+      }
+    ],
+    "mb": 2497
+  },
+  {
+    "modelo": "qwen3-embedding:8b",
+    "dim": 4096,
+    "fragmentos": 56,
+    "prefijo_consulta": "Instruct: Dada una pregunta de un cliente de EcoMarket, recuperar los pasajes de políticas, FAQ, catálogo o guía de cuidado que la responden\nQuery: ",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.722,
+      "@3": 1.0,
+      "@5": 1.0
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 1.0,
+      "@5": 1.0
+    },
+    "ms_por_consulta": 99.3,
+    "s_indexado": 9.6,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.804,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.761,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.738,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.879,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.779,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.745,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.706,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.704,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.673,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.699,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.648,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.623,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.844,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.723,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.655,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.758,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.747,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.602,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.69,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.666,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.651,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.4 Casos que NO p"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.763,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.752,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.707,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.2 Elegibilidad p"
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.755,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.655,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.637,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.848,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.817,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.678,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.655,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-PAN-REU; nombre: Paños reut"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.651,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.599,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.827,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.723,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.719,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.771,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.732,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.667,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.702,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.62,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.427,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente Las esponjas de "
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.817,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.743,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.729,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.807,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.786,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.517,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Se pueden devolver los alimentos? "
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.771,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.767,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.58,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.904,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.533,
+            "inicio": "Políticas EcoMarket > 3. Reglas de comunicación - Tono cercano, claro "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.532,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      }
+    ],
+    "mb": 4677
+  },
+  {
+    "modelo": "qwen3-embedding:0.6b [instr. genérica]",
+    "dim": 1024,
+    "fragmentos": 56,
+    "prefijo_consulta": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.722,
+      "@3": 0.833,
+      "@5": 0.889
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 0.5,
+      "@5": 0.667
+    },
+    "ms_por_consulta": 21.5,
+    "s_indexado": 2.4,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 5,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.624,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Se pueden devolver los alimentos? "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.601,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.585,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.807,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.72,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.718,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.567,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.547,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.53,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": null,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.521,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.483,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.455,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-JAB-3; nombre: Jabón sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.761,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.561,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.552,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.769,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.637,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.466,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": null,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.402,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.371,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.354,
+            "inicio": "Guía de cuidado > Cuando el cuidado no es el problema Si un producto f"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.838,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.591,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.571,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.508,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.462,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.428,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.836,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.708,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.604,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.671,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.615,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.486,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.63,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.611,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.585,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.626,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.493,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.474,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.377,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.358,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.348,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.742,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.659,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.536,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.753,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.666,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.583,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.671,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.536,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.52,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.697,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.375,
+            "inicio": "Pregunta frecuente (cuenta): Olvidé mi contraseña, ¿cómo la recupero? "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.363,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          }
+        ]
+      }
+    ],
+    "mb": 639
+  },
+  {
+    "modelo": "qwen3-embedding:4b [instr. genérica]",
+    "dim": 2560,
+    "fragmentos": 56,
+    "prefijo_consulta": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.667,
+      "@3": 0.889,
+      "@5": 0.889
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 0.667,
+      "@5": 0.667
+    },
+    "ms_por_consulta": 64.9,
+    "s_indexado": 6.2,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 6,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.635,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Se pueden devolver los alimentos? "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.628,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.609,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.754,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.667,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.604,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.679,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.644,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.627,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 6,
+        "top3": [
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.582,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.555,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.553,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.719,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.478,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.458,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.674,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.553,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.359,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.426,
+            "inicio": "Guía de cuidado > Cuando el cuidado no es el problema Si un producto f"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.423,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.372,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.4 Casos que NO p"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.776,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.49,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.462,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.572,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.359,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.359,
+            "inicio": "Políticas EcoMarket > 4. Criterio de escalamiento a humano El asistent"
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.836,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.807,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.641,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos La garantía de 2"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.695,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.688,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.609,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.728,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.694,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.655,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.705,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.522,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.467,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-BOT-750; nombre: Botella té"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.457,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.415,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente Las esponjas de "
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.373,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.799,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.699,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.61,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.792,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.699,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.539,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.685,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.571,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.559,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.694,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.382,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.38,
+            "inicio": "Pregunta frecuente (cuenta): Olvidé mi contraseña, ¿cómo la recupero? "
+          }
+        ]
+      }
+    ],
+    "mb": 2497
+  },
+  {
+    "modelo": "qwen3-embedding:8b [instr. genérica]",
+    "dim": 4096,
+    "fragmentos": 56,
+    "prefijo_consulta": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.667,
+      "@3": 0.833,
+      "@5": 0.833
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 0.5,
+      "@5": 0.5
+    },
+    "ms_por_consulta": 98.4,
+    "s_indexado": 9.9,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 7,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.675,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Se pueden devolver los alimentos? "
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.619,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.612,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.788,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.683,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.679,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.678,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.631,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.598,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 8,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.584,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.584,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.548,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.776,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.565,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.465,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.737,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.561,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.444,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 6,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.429,
+            "inicio": "Guía de cuidado > Cuando el cuidado no es el problema Si un producto f"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.416,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.404,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.3 Excepción por "
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.784,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.548,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.531,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.592,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.414,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.393,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.4 Casos que NO p"
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.85,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.809,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.634,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos La garantía de 2"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.67,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.612,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.597,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.74,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.733,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.7,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.72,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.639,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.575,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Sobre olores per"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.594,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.423,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.38,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente Las esponjas de "
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.787,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.671,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.552,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MIE-350; nombre: Miel de ab"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.783,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.693,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.506,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.7,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.561,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.553,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.721,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.432,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.407,
+            "inicio": "Pregunta frecuente (cuenta): Olvidé mi contraseña, ¿cómo la recupero? "
+          }
+        ]
+      }
+    ],
+    "mb": 4677
+  },
+  {
+    "modelo": "snowflake-arctic-embed2:latest",
+    "dim": 1024,
+    "fragmentos": 56,
+    "prefijo_consulta": "query: ",
+    "prefijo_documento": "",
+    "recall": {
+      "@1": 0.722,
+      "@3": 0.833,
+      "@5": 0.889
+    },
+    "recall_criticas": {
+      "@1": 0.5,
+      "@3": 0.5,
+      "@5": 0.667
+    },
+    "ms_por_consulta": 15.8,
+    "s_indexado": 1.6,
+    "detalle": [
+      {
+        "id": "oro-01",
+        "critico": true,
+        "k_minimo": 8,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.546,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Se pueden devolver los alimentos? "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.516,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.512,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-02",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.704,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.575,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.553,
+            "inicio": "Políticas EcoMarket > 1. Política de devoluciones > 1.1 Plazo general "
+          }
+        ]
+      },
+      {
+        "id": "oro-03",
+        "critico": false,
+        "k_minimo": 3,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.554,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.489,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.449,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-04",
+        "critico": true,
+        "k_minimo": 9,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.47,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.447,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.422,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-SHA-SOL; nombre: Shampoo só"
+          }
+        ]
+      },
+      {
+        "id": "oro-05",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.627,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.473,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.436,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-06",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.691,
+            "inicio": "Pregunta frecuente (envios): ¿Desde qué valor el envío es gratis? Resp"
+          },
+          {
+            "fuente": "politicas",
+            "puntaje": 0.352,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos - **Preparación**: 1–2 día"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.267,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          }
+        ]
+      },
+      {
+        "id": "oro-07",
+        "critico": true,
+        "k_minimo": 4,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.398,
+            "inicio": "Guía de cuidado > Cuando el cuidado no es el problema Si un producto f"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.38,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Puedo devolver un producto de higi"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.352,
+            "inicio": "Pregunta frecuente (devoluciones): Mi pedido llegó roto, ¿qué hago? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-08",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.767,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.491,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto tiempo tengo para devolver "
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.433,
+            "inicio": "Pregunta frecuente (envios): ¿Cuánto se demora en llegar mi pedido? Re"
+          }
+        ]
+      },
+      {
+        "id": "oro-09",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "politicas",
+            "puntaje": 0.394,
+            "inicio": "Políticas EcoMarket > 2. Política de envíos > 2.1 Manejo de retrasos C"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.327,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.313,
+            "inicio": "Pregunta frecuente (devoluciones): ¿Cuánto demora el reembolso? Respue"
+          }
+        ]
+      },
+      {
+        "id": "oro-10",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.745,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.606,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.466,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-BOT-750; nombre: Botella té"
+          }
+        ]
+      },
+      {
+        "id": "oro-11",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.559,
+            "inicio": "Pregunta frecuente (productos): ¿Las botellas térmicas se pueden lavar"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.501,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina Los paños reutil"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.387,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          }
+        ]
+      },
+      {
+        "id": "oro-12",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.656,
+            "inicio": "Pregunta frecuente (productos): ¿Qué garantía tienen los productos? Re"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.573,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-MOC-M; nombre: Mochila de a"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.564,
+            "inicio": "Guía de cuidado > Textiles: mochila y paños de cocina La mochila de al"
+          }
+        ]
+      },
+      {
+        "id": "oro-13",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.505,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos Hay una adverten"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.425,
+            "inicio": "Guía de cuidado > Acero inoxidable: botellas y termos El acero inoxida"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.342,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-TER-1L; nombre: Termo de ac"
+          }
+        ]
+      },
+      {
+        "id": "oro-14",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.447,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente La primera encen"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.248,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-VEL-SOJ; nombre: Vela de so"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.222,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          }
+        ]
+      },
+      {
+        "id": "oro-15",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.657,
+            "inicio": "Pregunta frecuente (productos): ¿Por qué mi miel se puso dura? Respues"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.534,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos La miel cruda c"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.366,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-16",
+        "critico": true,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.666,
+            "inicio": "Pregunta frecuente (productos): ¿El mix de frutos secos tiene alérgeno"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.535,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-FRU-MIX; nombre: Mix de fru"
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.394,
+            "inicio": "Guía de cuidado > Alimentos: café, miel y frutos secos Los frutos seco"
+          }
+        ]
+      },
+      {
+        "id": "oro-17",
+        "critico": false,
+        "k_minimo": 2,
+        "top3": [
+          {
+            "fuente": "guia",
+            "puntaje": 0.521,
+            "inicio": "Guía de cuidado > Hogar: velas, esponjas y detergente El detergente bi"
+          },
+          {
+            "fuente": "catalogo",
+            "puntaje": 0.394,
+            "inicio": "Producto del catálogo EcoMarket — sku: ECO-DET-1L; nombre: Detergente "
+          },
+          {
+            "fuente": "guia",
+            "puntaje": 0.394,
+            "inicio": "Guía de cuidado > Higiene personal: cepillos, jabones y shampoo sólido"
+          }
+        ]
+      },
+      {
+        "id": "oro-18",
+        "critico": false,
+        "k_minimo": 1,
+        "top3": [
+          {
+            "fuente": "faq",
+            "puntaje": 0.656,
+            "inicio": "Pregunta frecuente (cuenta): ¿Cómo dejo de recibir correos de EcoMarke"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.323,
+            "inicio": "Pregunta frecuente (envios): ¿Puedo cancelar un pedido? Respuesta: Sí,"
+          },
+          {
+            "fuente": "faq",
+            "puntaje": 0.252,
+            "inicio": "Pregunta frecuente (cuenta): Olvidé mi contraseña, ¿cómo la recupero? "
+          }
+        ]
+      }
+    ],
+    "mb": 1160
+  }
+]

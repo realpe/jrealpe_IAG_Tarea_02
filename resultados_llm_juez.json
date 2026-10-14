@@ -1,0 +1,416 @@
+{
+  "modelo": "qwen3:14b",
+  "resultados": {
+    "directo": {
+      "deteccion": 0.9,
+      "falsas_alarmas": 0.0,
+      "exactitud": 0.944,
+      "sin_veredicto": 0,
+      "llamadas": 18,
+      "segundos": 42.0,
+      "errores": [
+        "j09"
+      ],
+      "detalle": [
+        {
+          "id": "j01",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j02",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j03",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j04",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j05",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j06",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j07",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j08",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j09",
+          "real": false,
+          "juez": true
+        },
+        {
+          "id": "j10",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j11",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j12",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j13",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j14",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j15",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j16",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j17",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j18",
+          "real": false,
+          "juez": false
+        }
+      ]
+    },
+    "directo+razonar": {
+      "deteccion": 1.0,
+      "falsas_alarmas": 0.0,
+      "exactitud": 1.0,
+      "sin_veredicto": 0,
+      "llamadas": 18,
+      "segundos": 179.6,
+      "errores": [],
+      "detalle": [
+        {
+          "id": "j01",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j02",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j03",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j04",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j05",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j06",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j07",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j08",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j09",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j10",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j11",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j12",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j13",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j14",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j15",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j16",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j17",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j18",
+          "real": false,
+          "juez": false
+        }
+      ]
+    },
+    "afirmaciones": {
+      "deteccion": 1.0,
+      "falsas_alarmas": 0.25,
+      "exactitud": 0.889,
+      "sin_veredicto": 0,
+      "llamadas": 18,
+      "segundos": 54.9,
+      "errores": [
+        "j03",
+        "j04"
+      ],
+      "detalle": [
+        {
+          "id": "j01",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j02",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j03",
+          "real": true,
+          "juez": false
+        },
+        {
+          "id": "j04",
+          "real": true,
+          "juez": false
+        },
+        {
+          "id": "j05",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j06",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j07",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j08",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j09",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j10",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j11",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j12",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j13",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j14",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j15",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j16",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j17",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j18",
+          "real": false,
+          "juez": false
+        }
+      ]
+    },
+    "afirmaciones+razonar": {
+      "deteccion": 1.0,
+      "falsas_alarmas": 0.125,
+      "exactitud": 0.944,
+      "sin_veredicto": 0,
+      "llamadas": 18,
+      "segundos": 262.5,
+      "errores": [
+        "j04"
+      ],
+      "detalle": [
+        {
+          "id": "j01",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j02",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j03",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j04",
+          "real": true,
+          "juez": false
+        },
+        {
+          "id": "j05",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j06",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j07",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j08",
+          "real": true,
+          "juez": true
+        },
+        {
+          "id": "j09",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j10",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j11",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j12",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j13",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j14",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j15",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j16",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j17",
+          "real": false,
+          "juez": false
+        },
+        {
+          "id": "j18",
+          "real": false,
+          "juez": false
+        }
+      ]
+    }
+  }
+}

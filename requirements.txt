@@ -1,0 +1,17 @@
+# Dependencias del Taller 2 (sistema RAG de EcoMarket). Python 3.12.
+# Versiones fijadas: LangChain cambia su API entre versiones menores, y la serie 1.x movió
+# varios módulos de la 0.x (por ejemplo, las cadenas clásicas quedaron en `langchain-classic`).
+# Verificadas juntas con Chroma persistente y una cadena LCEL (retriever | prompt | llm).
+
+numpy==2.4.6
+requests==2.34.2
+
+# Orquestación (Fase 3)
+langchain==1.4.3
+langchain-core==1.6.6
+langchain-text-splitters==1.1.2
+
+# Integraciones: embeddings y modelo generador locales (Ollama) y base vectorial (Chroma)
+langchain-ollama==1.1.0
+langchain-chroma==1.1.0
+chromadb==1.5.9

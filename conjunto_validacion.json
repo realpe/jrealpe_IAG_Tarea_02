@@ -1,0 +1,70 @@
+{
+  "_comentario": "Conjunto de validación escrito ANTES de diseñar las estrategias de segmentación/recuperación de medir_segmentacion.py, para detectar sobreajuste al conjunto oro (las estrategias se diseñaron mirando los fallos de las 18 preguntas de conjunto_oro.json). Mismo formato que el conjunto oro. Incluye gemelas de los casos difíciles con otros productos y redacciones de cliente con vocabulario distinto al de la norma.",
+  "version": "1.0",
+  "preguntas": [
+    {
+      "id": "val-01",
+      "pregunta": "Me llego la miel con el frasco quebrado, la puedo devolver aunque sea comida?",
+      "documento": ["politicas"],
+      "requiere": ["no se reciben de vuelta", "cuando el producto llegó dañado, incompleto o defectuoso"],
+      "critico": true,
+      "por_que": "Gemela de oro-01 con otro producto y otro verbo ('quebrado'): restricción por categoría más excepción por daño."
+    },
+    {
+      "id": "val-02",
+      "pregunta": "Use el jabon una sola vez y me salio un sarpullido, que debo hacer?",
+      "documento": ["politicas"],
+      "requiere": ["daño a la salud", "escalarse a un agente humano"],
+      "critico": true,
+      "por_que": "Gemela de oro-07 sin la palabra 'alérgica': la norma habla de daño a la salud y el cliente describe un síntoma."
+    },
+    {
+      "id": "val-03",
+      "pregunta": "Abri el cepillo de dientes y las cerdas venian sueltas, me lo reciben de vuelta?",
+      "documento": ["politicas"],
+      "requiere": ["cualquier categoría", "sin importar el estado del empaque"],
+      "critico": true,
+      "por_que": "Gemela de oro-04 (trampa FAQ vs políticas) con otro producto de higiene y otro vocabulario ('sueltas' en vez de 'partido')."
+    },
+    {
+      "id": "val-04",
+      "pregunta": "Cuanto cuesta el termo de un litro?",
+      "documento": ["catalogo"],
+      "requiere": ["121000"],
+      "critico": false,
+      "por_que": "Dato tabular puntual de una fila del catálogo."
+    },
+    {
+      "id": "val-05",
+      "pregunta": "Cuanto tiempo me dura el cafe molido?",
+      "documento": ["catalogo", "guia"],
+      "requiere": ["6 meses"],
+      "critico": false,
+      "por_que": "Dato de vida útil que el catálogo expresa en cifras y la guía en letras."
+    },
+    {
+      "id": "val-06",
+      "pregunta": "Me pueden asegurar que el pedido llega el viernes sin falta?",
+      "documento": ["politicas"],
+      "requiere": ["estimadas", "prometer una fecha exacta"],
+      "critico": true,
+      "por_que": "Regla de conducta del asistente (no prometer fechas) enterrada en la sección de envíos."
+    },
+    {
+      "id": "val-07",
+      "pregunta": "Cuantos lavados aguanta el pano de cocina?",
+      "documento": ["catalogo"],
+      "requiere": ["200 lavados"],
+      "critico": false,
+      "por_que": "Dato de una nota del catálogo; la guía lo dice con palabras ('doscientos')."
+    },
+    {
+      "id": "val-08",
+      "pregunta": "Quiero reclamar por un pedido de 800 mil pesos que llego malo, quien me atiende?",
+      "documento": ["politicas"],
+      "requiere": ["$500.000", "escalarse a un agente humano"],
+      "critico": true,
+      "por_que": "Umbral de monto en la lista de escalamiento; el cliente escribe la cifra en palabras y la norma en símbolos."
+    }
+  ]
+}

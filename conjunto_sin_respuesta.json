@@ -1,0 +1,13 @@
+{
+  "_comentario": "Preguntas cuya respuesta NO está en el corpus. Sirven para medir si el sistema se abstiene en lugar de inventar. Los términos de 'ausentes' se verifican por código contra todos los fragmentos (exp_correctivo.py --verificar-conjunto); si un término aparece en el corpus, esa pregunta debe retirarse.",
+  "preguntas": [
+    {"id": "sr-01", "pregunta": "¿Hacen envíos a Ecuador?", "ausentes": ["ecuador", "internacional"]},
+    {"id": "sr-02", "pregunta": "¿Cuál es el horario de atención telefónica?", "ausentes": ["horario", "telefon"]},
+    {"id": "sr-03", "pregunta": "¿Tienen una tienda física en Bogotá?", "ausentes": ["bogota", "tienda fisica", "sucursal"]},
+    {"id": "sr-04", "pregunta": "¿Tienen programa de puntos o descuentos para clientes frecuentes?", "ausentes": ["puntos", "fidelizacion", "frecuentes"]},
+    {"id": "sr-05", "pregunta": "¿Puedo pagar en cuotas sin interés?", "ausentes": ["cuotas", "sin interes"]},
+    {"id": "sr-06", "pregunta": "¿Me pueden enviar la factura electrónica de mi compra?", "ausentes": ["factura"]},
+    {"id": "sr-07", "pregunta": "¿Cuánto cuesta el envío si mi pedido es de $60.000?", "ausentes": ["tarifa", "cuesta"]},
+    {"id": "sr-08", "pregunta": "¿Tienen aplicación móvil para hacer pedidos?", "ausentes": ["aplicacion movil", "app movil", "descargar la app"]}
+  ]
+}

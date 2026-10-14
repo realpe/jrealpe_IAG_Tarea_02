@@ -1,0 +1,199 @@
+{
+  "modelo": "qwen3:14b",
+  "k": 8,
+  "resumenes": [
+    "EcoMarket no acepta devoluciones de productos de higiene personal con el sello roto. Los jabones artesanales varían en color y aroma entre lotes. Las mochilas de algodón reciclado se lavan a mano, en agua fría, y se secan a la sombra; su garantía es de doce meses. Los paños de cocina pueden ir al lavavajillas y resisten hasta 200 lavados. Los jabones sólidos y shampoo duran más si se secan entre usos; el shampoo rinde 60 lavados. Las esponjas de luffa deben secarse entre usos. El detergente biodegradable tiene una vida útil de 18 meses.",
+    "EcoMarket ofrece productos sostenibles como botellas térmicas de acero 500ml (sku: ECO-BOT-500, $89.000), 750ml (sku: ECO-BOT-750, $106.000) y termo 1L (sku: ECO-TER-1L, $121.000), con garantía de 24 meses, vida útil indefinida y certificación libre de BPA. También incluye detergente biodegradable (sku: ECO-DET-1L, $48.000), jabón sólido (sku: ECO-JAB-3, $38.000), shampoo sólido (sku: ECO-SHA-SOL, $41.000), café orgánico (sku: ECO-CAF-500, $55.000), miel cruda (sku: ECO-MIE-350, $42.000), mix de frutos secos (sku: ECO-FRU-MIX, $78.000), mochila de algodón reciclado (sku: ECO-MOC-M, $96.000), esponjas vegetales (sku: ECO-ESP-KIT, $28.000), velas de soya (sku: ECO-VEL-SOJ, $64.000) y paños reutilizables (sku: ECO-PAN-REU, $34.000), con características específicas de uso, vida útil y certificaciones.",
+    "El cliente tiene **30 días calendario** desde la **fecha de entrega efectiva** para devolver un producto elegible. Los productos **DURADERO** sí admiten devolución si están sin uso, con empaque original y etiquetas, con reembolso en **5–10 días hábiles**. **HIGIENE_PERSONAL** solo si el empaque está sin abrir. **PERECEDERO** no admiten devolución. Si el producto llegó **dañado, incompleto o defectuoso**, se permite **reposición o reembolso total** en **72 horas** con evidencia. No se aceptan devoluciones fuera de plazo, por más de **$500.000 COP**, o con daño a la salud.",
+    "EcoMarket ofrece envío gratis en pedidos superiores a $120.000 COP. La preparación toma 1–2 días hábiles y el tránsito 2–3 días en ciudades principales y 4–7 en el resto del país. Las fechas son estimadas. Para devoluciones por productos rotos, se debe reportar en 72 horas con fotos; se tramita reposición o reembolso, con EcoMarket asumiendo el costo de retorno. El reembolso toma 5–10 días hábiles. Las garantías son: 24 meses para botellas y termos, 12 meses para mochilas. Acepta tarjetas, PSE y pago contra entrega en ciudades principales.",
+    "El producto ECO-CEP-BAM es un cepillo dental de bambú x4, con precio de 32.000 COP, fabricado en China, con certificación FSC. Tiene vida útil indefinida, no incluye garantía ni es apto para lavavajillas. El mango de bambú Moso y cerdas de nylon-6 deben reemplazarse cada tres meses. El empaque sellado determina la elegibilidad de devolución. El mix de frutos secos contiene almendras, nueces y marañón, y se empaca en una planta que procesa maní.",
+    "Para que una vela de soya se consuma correctamente, debe encenderse por al menos dos horas la primera vez, hasta que la cera derretida alcance los bordes del recipiente. Si se apaga antes, se formará un túnel en el centro, desperdiciando la cera de las paredes. Antes de cada encendida, recorte la mecha a cinco milímetros para evitar el hollín.",
+    "Para rastrear un pedido, se envía el número de guía y un enlace al correo registrado una vez que sale de bodega. La cancelación es posible antes de la entrega; si ya salió de bodega, se tramita como devolución. Para recuperar contraseña, usar la opción de recuperación en la pantalla de ingreso. Para dejar de recibir correos, usar el enlace en los correos o solicitarlo al área de datos personales, dentro de los términos de ley.",
+    "Las botellas térmicas de acero no se lavan en lavavajillas; solo los paños reutilizables lo son. La miel cruda cristaliza naturalmente y se vuelve líquida al sumergirla en agua tibia. Las botellas de acero inoxidable 18/8 no deben ir al lavavajillas, ya que afecta el vacío térmico. El termo de 1 litro no es apto para bebidas carbonatadas. La garantía de 24 meses cubre fallas en el sellado térmico, no daños físicos ni uso en lavavajillas. El café molido debe guardarse en recipiente hermético, en lugar oscuro y a temperatura ambiente, con vida útil de 6 meses desde la fecha de tostión. Los frutos secos se enrancian por oxígeno y luz; olor a pintura indica que no deben consumirse."
+  ],
+  "cifras": [
+    {
+      "grupo": 0,
+      "miembros": 8,
+      "ids": [
+        "faq::faq-02",
+        "faq::faq-12",
+        "guia::textiles-mochila-y-panos-de-cocina::1",
+        "guia::textiles-mochila-y-panos-de-cocina::2",
+        "guia::higiene-personal-cepillos-jabones-y-shampoo-solido::2",
+        "guia::higiene-personal-cepillos-jabones-y-shampoo-solido::3",
+        "guia::hogar-velas-esponjas-y-detergente::2",
+        "guia::hogar-velas-esponjas-y-detergente::3"
+      ],
+      "numeros": 4,
+      "conservados": 4,
+      "perdidos": [],
+      "inventados": [
+        "18"
+      ]
+    },
+    {
+      "grupo": 1,
+      "miembros": 14,
+      "ids": [
+        "catalogo::ECO-BOT-500",
+        "catalogo::ECO-BOT-750",
+        "catalogo::ECO-TER-1L",
+        "catalogo::ECO-DET-1L",
+        "catalogo::ECO-JAB-3",
+        "catalogo::ECO-SHA-SOL",
+        "catalogo::ECO-CAF-500",
+        "catalogo::ECO-MIE-350",
+        "catalogo::ECO-FRU-MIX",
+        "catalogo::ECO-MOC-M",
+        "catalogo::ECO-ESP-KIT",
+        "catalogo::ECO-VEL-SOJ",
+        "catalogo::ECO-PAN-REU",
+        "faq::faq-18"
+      ],
+      "numeros": 32,
+      "conservados": 19,
+      "perdidos": [
+        "0",
+        "100",
+        "12",
+        "18",
+        "2",
+        "200",
+        "220",
+        "301",
+        "6",
+        "60",
+        "8",
+        "80",
+        "9"
+      ],
+      "inventados": []
+    },
+    {
+      "grupo": 2,
+      "miembros": 7,
+      "ids": [
+        "politicas::1.1-1.3",
+        "politicas::1.4",
+        "politicas::2.1",
+        "politicas::4",
+        "faq::faq-01",
+        "faq::faq-03",
+        "guia::cuando-el-cuidado-no-es-el-problema::1"
+      ],
+      "numeros": 15,
+      "conservados": 6,
+      "perdidos": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "2",
+        "2.1",
+        "3",
+        "4",
+        "60"
+      ],
+      "inventados": []
+    },
+    {
+      "grupo": 3,
+      "miembros": 8,
+      "ids": [
+        "politicas::2",
+        "politicas::3",
+        "faq::faq-04",
+        "faq::faq-05",
+        "faq::faq-06",
+        "faq::faq-07",
+        "faq::faq-13",
+        "faq::faq-17"
+      ],
+      "numeros": 12,
+      "conservados": 11,
+      "perdidos": [
+        "150"
+      ],
+      "inventados": []
+    },
+    {
+      "grupo": 4,
+      "miembros": 3,
+      "ids": [
+        "catalogo::ECO-CEP-BAM",
+        "faq::faq-14",
+        "guia::higiene-personal-cepillos-jabones-y-shampoo-solido::1"
+      ],
+      "numeros": 6,
+      "conservados": 5,
+      "perdidos": [
+        "0"
+      ],
+      "inventados": []
+    },
+    {
+      "grupo": 5,
+      "miembros": 1,
+      "ids": [
+        "guia::hogar-velas-esponjas-y-detergente::1"
+      ],
+      "numeros": 3,
+      "conservados": 3,
+      "perdidos": [],
+      "inventados": []
+    },
+    {
+      "grupo": 6,
+      "miembros": 4,
+      "ids": [
+        "faq::faq-08",
+        "faq::faq-09",
+        "faq::faq-15",
+        "faq::faq-16"
+      ],
+      "numeros": 1,
+      "conservados": 1,
+      "perdidos": [],
+      "inventados": []
+    },
+    {
+      "grupo": 7,
+      "miembros": 9,
+      "ids": [
+        "faq::faq-10",
+        "faq::faq-11",
+        "guia::acero-inoxidable-botellas-y-termos::1",
+        "guia::acero-inoxidable-botellas-y-termos::2",
+        "guia::acero-inoxidable-botellas-y-termos::3",
+        "guia::acero-inoxidable-botellas-y-termos::4",
+        "guia::alimentos-cafe-miel-y-frutos-secos::1",
+        "guia::alimentos-cafe-miel-y-frutos-secos::2",
+        "guia::alimentos-cafe-miel-y-frutos-secos::3"
+      ],
+      "numeros": 9,
+      "conservados": 5,
+      "perdidos": [
+        "2",
+        "3",
+        "500",
+        "750"
+      ],
+      "inventados": []
+    }
+  ],
+  "enrutamiento": {
+    "evaluación": {
+      "grupo_top1": 0.833,
+      "fragmentos_top3": 0.889,
+      "chars_grupo_medio": 2847,
+      "chars_top3_medio": 1210
+    },
+    "validación": {
+      "grupo_top1": 0.375,
+      "fragmentos_top3": 0.625,
+      "chars_grupo_medio": 3351,
+      "chars_top3_medio": 1216
+    }
+  }
+}

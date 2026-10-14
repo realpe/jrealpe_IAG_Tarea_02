@@ -1,0 +1,150 @@
+{
+  "_comentario": "Conjunto oro para medir recuperación. Cada pregunta declara los TEXTOS que deben aparecer en los fragmentos recuperados, no el identificador del fragmento: las estrategias de segmentación producen fragmentos distintos y no serían comparables por id. Formato heredado de fase4_rag/evaluar.py del Taller 1, extendido con `documento` para un corpus de varias fuentes.",
+  "version": "1.0",
+  "preguntas": [
+    {
+      "id": "oro-01",
+      "pregunta": "Compre un mix de frutos secos y llego con el empaque roto. Puedo devolverlo?",
+      "documento": ["politicas"],
+      "requiere": ["no se reciben de vuelta", "cuando el producto llegó dañado, incompleto o defectuoso"],
+      "critico": true,
+      "por_que": "Caso que originó el hallazgo del Taller 1: la respuesta correcta necesita la restricción por categoría (1.2) Y la excepción por producto dañado (1.3). Si la segmentación las separa, el sistema niega una devolución que sí procede."
+    },
+    {
+      "id": "oro-02",
+      "pregunta": "Cuantos dias tengo para pedir una devolucion?",
+      "documento": ["politicas", "faq"],
+      "requiere": ["30 días calendario"],
+      "critico": false,
+      "por_que": "Dato normativo simple. Vive en dos documentos: sirve para observar si el recuperador prefiere la fuente normativa o la comercial."
+    },
+    {
+      "id": "oro-03",
+      "pregunta": "Puedo devolver un shampoo solido que ya abri?",
+      "documento": ["politicas", "faq"],
+      "requiere": ["HIGIENE_PERSONAL", "sin abrir"],
+      "critico": false,
+      "por_que": "Requiere la tabla de elegibilidad por categoría completa."
+    },
+    {
+      "id": "oro-04",
+      "pregunta": "Abri el shampoo solido y venia con el envase partido. Me lo reciben?",
+      "documento": ["politicas"],
+      "requiere": ["cualquier categoría", "sin importar el estado del empaque"],
+      "critico": true,
+      "por_que": "TRAMPA ENTRE DOCUMENTOS. La FAQ (faq-02) dice que un producto de higiene abierto no se recibe, y omite la excepción por defecto. Si el recuperador trae solo el fragmento de la FAQ, el sistema niega un derecho que el cliente tiene. Es el mismo fallo del Taller 1, ahora entre dos fuentes en vez de entre dos secciones."
+    },
+    {
+      "id": "oro-05",
+      "pregunta": "Mi pedido esta retrasado, que opciones tengo?",
+      "documento": ["politicas"],
+      "requiere": ["Manejo de retrasos", "cancelar con reembolso total"],
+      "critico": false,
+      "por_que": "Debe recuperar la sección de envíos y no la de devoluciones."
+    },
+    {
+      "id": "oro-06",
+      "pregunta": "Desde cuanto hay envio gratis?",
+      "documento": ["politicas", "faq"],
+      "requiere": ["120.000"],
+      "critico": false,
+      "por_que": "Dato puntual dentro de un bloque de viñetas, duplicado en la FAQ."
+    },
+    {
+      "id": "oro-07",
+      "pregunta": "El producto me causo una reaccion alergica, que hago?",
+      "documento": ["politicas"],
+      "requiere": ["daño a la salud", "escalarse a un agente humano"],
+      "critico": true,
+      "por_que": "Caso de seguridad. El Taller 1 midió que las reglas de escalamiento son las que peor se recuperan, porque una prohibición no se parece semánticamente a la petición que debe bloquear."
+    },
+    {
+      "id": "oro-08",
+      "pregunta": "Cuanto se demora el reembolso?",
+      "documento": ["politicas", "faq"],
+      "requiere": ["5", "10 días hábiles"],
+      "critico": false,
+      "por_que": "Dato que vive dentro de una celda de tabla en políticas y como frase suelta en la FAQ."
+    },
+    {
+      "id": "oro-09",
+      "pregunta": "Me pueden dar un descuento por la demora?",
+      "documento": ["politicas"],
+      "requiere": ["Prohibido", "compensaciones"],
+      "critico": true,
+      "por_que": "Debe recuperar la prohibición de compensaciones. Sin ella el modelo carece del límite y puede ofrecer algo que no está autorizado."
+    },
+    {
+      "id": "oro-10",
+      "pregunta": "Puedo meter la botella termica al lavavajillas?",
+      "documento": ["catalogo", "guia"],
+      "requiere": ["lavavajillas"],
+      "critico": false,
+      "por_que": "El catálogo responde con un dato tabular (No) y la guía explica la razón física. Mide si el recuperador complementa dos documentos de naturaleza distinta."
+    },
+    {
+      "id": "oro-11",
+      "pregunta": "Que productos si puedo lavar en lavavajillas?",
+      "documento": ["catalogo", "faq", "guia"],
+      "requiere": ["paños"],
+      "critico": false,
+      "por_que": "Pregunta por la excepción y no por la regla. Un solo producto del catálogo la cumple."
+    },
+    {
+      "id": "oro-12",
+      "pregunta": "Cuanta garantia tiene la mochila de algodon?",
+      "documento": ["catalogo", "faq"],
+      "requiere": ["12"],
+      "critico": false,
+      "por_que": "Dato de una fila del catálogo. Distingue un producto de otros que tienen 24 meses."
+    },
+    {
+      "id": "oro-13",
+      "pregunta": "Puedo echarle gaseosa al termo de un litro?",
+      "documento": ["catalogo", "guia"],
+      "requiere": ["carbonatadas"],
+      "critico": true,
+      "por_que": "Advertencia de seguridad del producto enterrada a mitad de un párrafo narrativo. Mide si la segmentación de un texto sin estructura de secciones conserva la advertencia junto a su producto."
+    },
+    {
+      "id": "oro-14",
+      "pregunta": "Mi vela se esta consumiendo solo por el centro, que hice mal?",
+      "documento": ["guia", "catalogo"],
+      "requiere": ["túnel"],
+      "critico": false,
+      "por_que": "La respuesta está en la guía narrativa; el catálogo la menciona en una nota corta."
+    },
+    {
+      "id": "oro-15",
+      "pregunta": "La miel se me puso dura, se daño?",
+      "documento": ["faq", "catalogo", "guia"],
+      "requiere": ["cristaliz"],
+      "critico": false,
+      "por_que": "Aparece en los tres documentos con distinto nivel de detalle. Caso de redundancia útil."
+    },
+    {
+      "id": "oro-16",
+      "pregunta": "El mix de frutos secos tiene mani?",
+      "documento": ["catalogo", "faq"],
+      "requiere": ["maní"],
+      "critico": true,
+      "por_que": "Consulta de alérgenos. Una respuesta incompleta aquí es un riesgo de salud, y la advertencia sobre la planta de empaque es el dato que importa."
+    },
+    {
+      "id": "oro-17",
+      "pregunta": "Por que el detergente aparece como duradero si se acaba?",
+      "documento": ["catalogo", "guia"],
+      "requiere": ["18 meses"],
+      "critico": false,
+      "por_que": "Pregunta sobre una clasificación contraintuitiva del catálogo. Comprueba si el recuperador trae la justificación y no solo la etiqueta."
+    },
+    {
+      "id": "oro-18",
+      "pregunta": "Ya no quiero recibir sus correos, como me doy de baja?",
+      "documento": ["faq"],
+      "requiere": ["baja"],
+      "critico": false,
+      "por_que": "Solicitud de supresión de datos personales. En el Taller 1 este caso destapó que la escala de supervisión mide riesgo de autonomía y no riesgo regulatorio."
+    }
+  ]
+}

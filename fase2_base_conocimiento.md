@@ -111,21 +111,22 @@ Cada pieza de la estrategia final se midió de forma aislada con `bge-m3` (R@3 /
 
 El proceso que convierte los documentos en una base vectorial consultable sigue estos pasos:
 
-1. **Carga.** Se leen los cuatro documentos y se calcula un hash (SHA-256) de cada uno.
-2. **Segmentación.** Cada documento se divide con la estrategia de la sección 2.2, con la fusión de las secciones 1.1 a 1.3.
-3. **Vectorización.** El texto de cada fragmento, con su encabezado o ruta de títulos, se convierte en un vector de 1 024 dimensiones con `bge-m3`, servido por Ollama en lotes. Los vectores se normalizan, de modo que la similitud coseno equivale al producto punto.
-4. **Almacenamiento.** Los vectores se cargan en una colección de ChromaDB persistente (métrica coseno) junto con el texto original y sus metadatos.
-5. **Reindexado incremental.** Al cambiar un documento (su hash difiere del almacenado), se eliminan los fragmentos de esa fuente y se vuelven a cargar, sin reconstruir el resto de la colección.
+1. **Carga y segmentación.** Se leen los cuatro documentos y cada uno se divide con la estrategia de la sección 2.2, con la fusión de las secciones 1.1 a 1.3. Cada fragmento recibe un identificador estable y un hash SHA-256 calculado sobre su texto, la versión del documento y su enlace a políticas (`politica_ref`): si cambia cualquiera de los tres, cambia el hash.
+2. **Comparación con el índice.** Se leen los identificadores y hashes ya almacenados en la colección y se clasifica cada fragmento: nuevo (id ausente), cambiado (id presente con otro hash), intacto (mismo hash) o huérfano (id en el índice que ya no existe en el corpus).
+3. **Vectorización.** Solo los fragmentos nuevos o cambiados se convierten en vectores de 1 024 dimensiones con `bge-m3`, servido por Ollama en lotes de 32. Los vectores se normalizan, de modo que la similitud coseno equivale al producto punto.
+4. **Almacenamiento.** Los vectores nuevos o cambiados se cargan con `upsert` en una colección de ChromaDB persistente (métrica coseno) junto con el texto original y sus metadatos; los huérfanos se borran; los intactos no se tocan.
+5. **Cuándo se ejecuta.** El reindexado se lanza a mano (`python indexar.py`) después de editar un documento; no hay un proceso que vigile los archivos. En una operación real se programaría (por ejemplo, en un cron o en el pipeline que publica las políticas), y el costo de cada ejecución es proporcional a lo que cambió: editar una respuesta de la FAQ reembebe un fragmento de 54.
 
 **Metadatos por fragmento**
 
 | Campo | Ejemplo | Uso |
 |---|---|---|
-| `id` | `politicas::1.3` · `faq::faq-02` · `catalogo::ECO-TER-1L` | Identificador estable que permite actualizar un fragmento sin duplicarlo |
-| `fuente` | `politicas` | Filtrar por documento y reindexar por fuente |
+| `id` | `politicas::1.1-1.3` · `faq::faq-02` · `catalogo::ECO-TER-1L` · `guia::acero-inoxidable-botellas-y-termos::1` | Identificador estable que permite actualizar un fragmento sin duplicarlo |
+| `fuente` | `politicas` | Filtrar por documento |
 | `version` | `3.1` | Auditar con qué versión del documento se respondió |
 | `politica_ref` | `1.2,1.3` (solo en la FAQ) | Insumo del enlace de la sección 2.3, guardado como cadena separada por comas |
-| `hash` | `a3f9…` | Detectar cambios en el documento de origen |
+| `claves` | `1.1,1.2,1.3` (solo en políticas) | Secciones que cubre el fragmento; es lo que el enlace usa para encontrar el fragmento de una sección |
+| `hash` | `a3f9…` | Detectar qué fragmentos cambiaron desde la última indexación |
 
 En la consulta, el sistema vectoriza la pregunta con el mismo modelo, recupera los *k* = 3 fragmentos más cercanos, añade las secciones de políticas enlazadas a cada fragmento de FAQ recuperado y entrega el resultado al generador junto con el identificador y la versión de cada fragmento para citarlos. El script de indexado y el de consulta forman parte de la Fase 3.
 
